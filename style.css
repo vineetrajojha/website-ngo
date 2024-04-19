@@ -17,6 +17,11 @@ button, body {
     box-sizing: border-box;
 }
 
+p{
+    font-size: 14px;
+    line-height: 26px;
+}
+
 .fullContainer{
     width: 100%;
 }
@@ -90,11 +95,43 @@ header nav ul li a:hover{
     display: inline-block;
     font-size: 3.5rem;
     color: #fff;
-    text-shadow: 0 0 2px #000;
+    text-shadow: 0 0 2px #fff;
     width: 50%;
     line-height: 4.2rem;
     font-weight: 100;
 }
+
+.banner h1 span{
+    background-color: var(--themeRed);
+    display: inline-block;
+    line-height: 3.5rem;
+    padding:0 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.banner p{
+    color: #fff;
+    width: 50%;
+    text-shadow: 0 0 2px #fff;
+    margin-top: 0%;
+}
+
+
+.banner button{
+    background-color: var(--themeRed);
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top:  20px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+
+
+
 
 
 
